@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>My portfolio</title>
+  <!-- <meta name="title" content="Julia - I'm User Interface Designer & Developer.">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee"> -->
+
+  <!-- 
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- 
+    - preload images
+  -->
+  <!-- <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg"> -->
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <!-- <a href="#" class="logo">
+        <img src="./assets/images/logo-dark.svg" width="64" height="24" alt="Julia home">
+      </a> -->
+
+      <nav class="navbar">
+
+        <div class="navbar-top">
+          <!-- <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="64" height="24" alt="Julia home">
+          </a> -->
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about_me" class="navbar-link">About</a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li> -->
+
+          <li>
+            <a href="#my_skills" class="navbar-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact_me" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:ayushibindal92@gmail.com" class="contact-link">ayushibindal92@gmail.com</a>
+
+          <a href="tel:6262076822" class="contact-link">6262076822</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/ayushi-agrawal-7a9828218/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/ayushiagrawal02" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home" >
+        <div class="container" >
+
+          <figure class="hero-banner">
+            <img src="ayushi.jpg" width="540" height="400" alt="Ayushi Agrawal" class="profile"
+              >
+
+            <!-- <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="250+ Projects Done" class="shape"
+             > -->
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" >
+              Hello! I'm Ayushi Agrawal,
+              <br>
+              <h2>
+                I'm a Btech student at Madhav Institute of technology & Science, Gwalior.
+              </h2>
+            </h1>
+
+            <p class="section-text" >
+              I'm passionate about learning and I try to have a positive attitude towards everything, I'm a web developer who loves to create fun and adaptive solutions.
+            </p>
+
+            <div class="btn-wrapper">
+              <a href="#about_me" class="btn btn-primary">Education</a>
+
+              <a href="#contact_me" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about_me" aria-label="about">
+        <div class="container">
+          <div class="aboutme">
+
+          <div class="wrapper">
+
+            <div>
+              <h2 class="h2 section-title">Overview</h2>
+
+              <p class="section-text">
+                I'm at present studying new web technologies, which I find to be really captivating. 
+                I have a strong desire to expand my knowledge and skill set.
+
+              </p>
+            </div>
+
+            <image src="books.png" style="width: 300px;"></image>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li >
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="mits.png" width="62" height="62" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">University</h3>
+
+                <p class="card-text">
+                  B.Tech | IT(Artificial Intelligence & Robotics)
+                  Madhav Institute of Technology & Science, Gwalior
+                </p>
+
+              </div>
+            </li>
+
+            <li >
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="schools.png" width="60" height="60" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">School</h3>
+
+                <p class="card-text">
+                  <ul class="card-text">
+                    <li>Class 12th: New Jain Higher Secondary School</li>
+                    <li>Class 10th: Trinity Convent Senior Secondary School</li>
+                    
+                  </ul>
+                </p>
+
+              </div>
+            </li>
+
+            <li >
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="technicalSkills.png" width="58" height="58" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">My skills</h3>
+
+                <ul class="card-text">
+                  <li>C, C++, python</li>
+                  <li>SQL</li>
+                  <li>Html, CSS, bootstrap</li>
+                </ul>
+
+              </div>
+            </li>
+
+            
+
+            <li >
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="courseWork.png" width="55" height="55" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Coursework</h3>
+
+                <p class="card-text">
+                  <ul class="card-text">
+                    <li>DBMS</li>
+                    <li>Data Structures and Algorithm</li>
+                    <li>OOPS, Machine Learning</li>
+                  </ul>
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+      </section>
+
+
+
+
+
+ <section class="section contact" id="my_skills" aria-label="contact">
+  <div class="container">
+
+    <div class="contact-card">
+
+      <div class="contact-content">
+
+        <!-- <div class="card-icon">
+          <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+        </div> -->
+        <h1 class="h1 section-title">
+          Experience:
+        </h1>
+        <!-- <h2 class="h2 section-title">If you like what you see, let's work together.</h2> -->
+        <div class="societies">
+          <div>
+            <image src="acm.jpg" style="border-radius:50%" width="130px"></image>
+          </div>
+          <div>
+            <p class="textt"  style="padding-left: 10px; text-align: justify;">
+                As ACM core member, led event planning, fostering teamwork and executing successful initiatives.Some events include Dadvent, Codathon which
+                 Strengthened technical skills, facilitated professional development, and expanded network within the computing community.
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="societies">
+          <div>
+            <image src="aerospace.jpg" style="border-radius:50%" width="130px"></image>
+          </div>
+          <div>
+            <p class="textt" style="padding-left: 10px; text-align: justify;">
+                Contributed actively as an core technical member in Aerospace Club, engaging in hands-on projects and collaborative activities.
+                organized impactful events, including talk with NASA scientists and Sheldon's round table Gained valuable insights into aerospace technologies.
+            </p>
+          </div>
+        </div>
+        <!-- <p class="section-text">
+          I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from
+          this contact form and I will get back to you shortly.
+        </p>-->
+
+      </div> 
+
+      <div class="hobbies">
+        <h1 class="h1 section-title" >
+          My Hobbies & Interests:
+        </h1>
+        <ul class="card-text">
+          <li>Dancing</li>
+          <li>Painting and Sketching</li>
+          <li>Travelling</li>
+          <li>Swimming</li>
+          <li>Reading Books</li>
+          
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+      <section class="section contact" id="contact_me" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content">
+
+              <!-- <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div> -->
+
+              <h2 class="h2 section-title">If you like to contact me, please send a message.</h2>
+
+              <p class="section-text">
+                I've just recently started exploring the world of software development and I'm looking forward to various oppurtunities that comes up.
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" >
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        ©AyushiAgrawal. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-dribbble"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <!-- <script src="./assets/js/script.js"></script> -->
+
+  <!-- 
+    - ionicon link
+  -->
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+
+</body>
+
+</html>
